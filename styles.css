@@ -1,11 +1,16 @@
 <style>
-body,h1,p{
+body {
+font-family: "Oxygen", sans-serif;
+}
+
+h1,p {
 font-family: "Oxygen", sans-serif;
 }
 
 table {
   border-collapse: collapse;
   width: 100%;
+  font-family: "Oxygen", sans-serif;
 }
 
 td, th {
