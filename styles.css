@@ -3,7 +3,7 @@ body {
 font-family: "Poppins", sans-serif;
 }
 
-h1,p {
+h1,h2,h3,h4,h5,p {
 font-family: "Poppins", sans-serif;
 }
 
@@ -23,23 +23,14 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 
-input[type=text] {
-    padding:5px; 
-    border:2px solid #ccc; 
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-}
-
-input[type=text]:focus {
-    border-color:#333;
-}
-
 input[type=submit] {
-    padding:5px 15px; 
-    background:#ccc; 
-    border:0 none;
-    cursor:pointer;
-    -webkit-border-radius: 5px;
-    border-radius: 5px; 
-}
+	font-family: "Poppins", sans-serif;
+        background-color: #2BBC97;
+        border: none;
+        color: #fff;
+        padding: 10px 24px;
+        text-decoration: none;
+        margin: 2px 2px;
+        cursor: pointer;
+      }
 </style>
