@@ -1,16 +1,16 @@
 <style>
 body {
-font-family: "Oxygen", sans-serif;
+font-family: "Poppins", sans-serif;
 }
 
 h1,p {
-font-family: "Oxygen", sans-serif;
+font-family: "Poppins", sans-serif;
 }
 
 table {
   border-collapse: collapse;
   width: 100%;
-  font-family: "Oxygen", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 td, th {
@@ -21,5 +21,25 @@ td, th {
 
 tr:nth-child(even) {
   background-color: #dddddd;
+}
+
+input[type=text] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border-color:#333;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
 }
 </style>
